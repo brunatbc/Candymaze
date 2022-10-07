@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    min-height: 100vh;
+    background-color: #F6F9FF;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+header{
+    color: #ff00ea;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px #000000;
+
+}
+
+header>h1{
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+
+header>p{
+    padding-bottom: 40px;
+}
+
+header.head{
+   background-image: url(../imagens/doces_3.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 100vh;
+   opacity: 0.55;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2em;
+}
+
+section.text{
+ background-color: rgb(237, 215, 250);
+ min-height: 300px;
+ 
+}
+
+section.image{
+    background-color: cornflowerblue;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 3px 3px 15px 0px rgba(0, 0, 0, 0.658);
+}
+
+section#img01{
+    background-image: url(../imagens/doces.jpg);
+    min-height: 400px;
+    /*background-position: ;*/
+}
+
+section#img02{
+    background-image: url(../imagens/doces_2.jpg);
+    min-height: 400px;
+    /*background-position: ;*/
+}
+
+section.image>p{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px 2px black;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer>p>a{
+    text-decoration:underline;
+    color: white;
+}
+
+footer>p>a:hover{
+    color: #ff00ea;
+}
